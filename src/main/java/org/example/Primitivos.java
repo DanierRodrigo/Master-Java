@@ -28,5 +28,14 @@ public class Primitivos {
         System.out.println("valor máximo de un int: " + Integer.MAX_VALUE);
         System.out.println("valor mínimo de un int: " + Integer.MIN_VALUE);
 
+        System.out.println();
+
+        long numeroLong = 2147483647L;
+        System.out.println("numeroLong = " + numeroLong);
+        System.out.println("tipo long corresponde en byte a " + Long.BYTES);
+        System.out.println("tipo long corresponde en bites a " + Long.SIZE);
+        System.out.println("valor máximo de un long: " + Long.MAX_VALUE);
+        System.out.println("valor mínimo de un long: " + Long.MIN_VALUE);
+
     }
 }
