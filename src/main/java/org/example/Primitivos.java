@@ -18,5 +18,15 @@ public class Primitivos {
         System.out.println("tipo short corresponde en bites a " + Short.SIZE);
         System.out.println("valor máximo de un short: " + Short.MAX_VALUE);
         System.out.println("valor mínimo de un short: " + Short.MIN_VALUE);
+
+        System.out.println();
+
+        int numeroInt = 2147483647;
+        System.out.println("numeroInt = " + numeroInt);
+        System.out.println("tipo int corresponde en byte a " + Integer.BYTES);
+        System.out.println("tipo int corresponde en bites a " + Integer.SIZE);
+        System.out.println("valor máximo de un int: " + Integer.MAX_VALUE);
+        System.out.println("valor mínimo de un int: " + Integer.MIN_VALUE);
+
     }
 }
