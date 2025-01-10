@@ -37,5 +37,12 @@ public class Primitivos {
         System.out.println("valor máximo de un long: " + Long.MAX_VALUE);
         System.out.println("valor mínimo de un long: " + Long.MIN_VALUE);
 
+        System.out.println();
+
+        //Para variables dinámicas. Por defecto será Integer
+        //Si quieremos más que int, lo terminaremos en L,F o D
+        var numeroVar = 127;
+        System.out.println("numeroVar = " + numeroVar);
+
     }
 }
