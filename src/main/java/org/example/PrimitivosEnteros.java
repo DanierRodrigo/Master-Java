@@ -1,6 +1,6 @@
 package org.example;
 
-public class Primitivos {
+public class PrimitivosEnteros {
     public static void main(String[] args) {
 
         byte numeroByte = 127;

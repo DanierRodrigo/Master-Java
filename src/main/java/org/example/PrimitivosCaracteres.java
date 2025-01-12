@@ -1,6 +1,6 @@
 package org.example;
 
-public class Caracteres {
+public class PrimitivosCaracteres {
     public static void main(String[] args) {
 
         //Es necesario usar comillas simples
