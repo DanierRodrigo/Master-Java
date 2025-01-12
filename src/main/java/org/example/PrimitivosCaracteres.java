@@ -24,5 +24,14 @@ public class PrimitivosCaracteres {
         System.out.println("char coresponde en bites = " + Character.SIZE);
         System.out.println("Character.MIN_VALUE = " + Character.MIN_VALUE);
         System.out.println("Character.MAX_VALUE = " + Character.MAX_VALUE);
+
+        System.out.println();
+
+        //Caracteres especiales
+        char espacio = '\u0020';
+        char retroceso = '\b';
+        char tabulador = '\t';
+        char nuevaLinea = '\n';
+        char retornoCarro = '\r';
     }
 }
