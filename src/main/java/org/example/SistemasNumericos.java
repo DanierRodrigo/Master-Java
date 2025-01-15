@@ -1,9 +1,13 @@
 package org.example;
 
+import javax.swing.*;
+
 public class SistemasNumericos {
     public static void main(String[] args) {
 
-        int numeroDecimal = 500;
+        String numeroStr = JOptionPane.showInputDialog("Ingrese un numero entero: ");
+
+        int numeroDecimal = Integer.parseInt(numeroStr);
         System.out.println("numeroDecimal = " + numeroDecimal);
 
         System.out.println();
@@ -32,6 +36,12 @@ public class SistemasNumericos {
 
         int numeroHex = 0x1F4;
         System.out.println("numeroHex = " + numeroHex);
+
+        String mensaje = "numero binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
+        mensaje += "\nnumero octal de " + numeroBinario + " = " + Integer.toOctalString(numeroDecimal);
+        mensaje += "\numero hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal);
+
+        JOptionPane.showMessageDialog(null, mensaje);
 
     }
 }
