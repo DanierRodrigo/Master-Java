@@ -7,7 +7,15 @@ public class SistemasNumericos {
 
         String numeroStr = JOptionPane.showInputDialog("Ingrese un numero entero: ");
 
-        int numeroDecimal = Integer.parseInt(numeroStr);
+        int numeroDecimal = 0;
+        try {
+            numeroDecimal = Integer.parseInt(numeroStr);
+        } catch (NumberFormatException e){
+            JOptionPane.showMessageDialog(null, "Error: Debe ingresar un numero entero");
+            main(args); //Volvemos a invocar el main
+            System.exit(0); //Si no hacemos esto, se repetiría en bucle
+        }
+
         String resultadoBinario = "numero binario de de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
         System.out.println(resultadoBinario);
 
@@ -20,7 +28,7 @@ public class SistemasNumericos {
 
         System.out.println();
 
-        String resultadoOctal = "numero octal de " + numeroBinario + " = " + Integer.toOctalString(numeroDecimal);
+        String resultadoOctal = "numero octal de " + numeroDecimal + " = " + Integer.toOctalString(numeroDecimal);
         System.out.println(resultadoOctal);
         System.out.println();
 
