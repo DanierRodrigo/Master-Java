@@ -8,9 +8,8 @@ public class SistemasNumericos {
         String numeroStr = JOptionPane.showInputDialog("Ingrese un numero entero: ");
 
         int numeroDecimal = Integer.parseInt(numeroStr);
-        System.out.println("numeroDecimal = " + numeroDecimal);
-
-        System.out.println();
+        String resultadoBinario = "numero binario de de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
+        System.out.println(resultadoBinario);
 
         System.out.println("numero binario de  " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal));
 
@@ -21,8 +20,8 @@ public class SistemasNumericos {
 
         System.out.println();
 
-        System.out.println("numero octal de " + numeroBinario + " = " + Integer.toOctalString(numeroDecimal));
-
+        String resultadoOctal = "numero octal de " + numeroBinario + " = " + Integer.toOctalString(numeroDecimal);
+        System.out.println(resultadoOctal);
         System.out.println();
 
         int numeroOctal = 0764;
@@ -30,16 +29,16 @@ public class SistemasNumericos {
 
         System.out.println();
 
-        System.out.println("numero hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal));
-
+        String resultadoHex = "numero hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal);
+        System.out.println(resultadoHex);
         System.out.println();
 
         int numeroHex = 0x1F4;
         System.out.println("numeroHex = " + numeroHex);
 
-        String mensaje = "numero binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
-        mensaje += "\nnumero octal de " + numeroBinario + " = " + Integer.toOctalString(numeroDecimal);
-        mensaje += "\numero hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal);
+        String mensaje = resultadoBinario;
+        mensaje += "\n" + resultadoOctal;
+        mensaje += "\n" + resultadoHex;
 
         JOptionPane.showMessageDialog(null, mensaje);
 
