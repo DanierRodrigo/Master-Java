@@ -1,4 +1,4 @@
-package org.example;
+package org.example.variables;
 
 import java.util.Scanner;
 

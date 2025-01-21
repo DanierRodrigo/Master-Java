@@ -1,4 +1,4 @@
-package org.example;
+package org.example.stringCadenas;
 
 public class UsandoEquals {
     public static void main(String[] args) {

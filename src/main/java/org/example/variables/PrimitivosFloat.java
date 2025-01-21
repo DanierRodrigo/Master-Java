@@ -1,4 +1,4 @@
-package org.example;
+package org.example.variables;
 
 public class PrimitivosFloat {
     public static void main(String[] args) {
