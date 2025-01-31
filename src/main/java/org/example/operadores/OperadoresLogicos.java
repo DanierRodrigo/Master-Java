@@ -36,5 +36,22 @@ public class OperadoresLogicos {
 
         boolean b6 = i != j && (k > l || m == false);
         System.out.println("b6 = i == j && (k > l || m == false) = " + b6);
+
+        //El AND tiene preferencia frente al OR
+        boolean b7 = i == j || k < l && m == true; //Resuelve primero el AND
+        System.out.println("b7 = i == j || k < l && m == true = " + b7);
+        //El AND da False, pero el OR da True, por eso el resultado es True
+
+        boolean b8 = true || true && false;
+        System.out.println("b8 = true || true && false = " + b8);
+
+        boolean b9 = true || (true && false);
+        System.out.println("b9 = true || (true && false) = " + b9);
+
+        boolean b10 = true || (false && false) || false; //true
+        System.out.println("b10 = true || (false && false) || false = " + b10);
+
+        boolean b11 = ((true || false) && false) || false; //false
+        System.out.println("b11 = ((true || false) && false) || false = " + b11);
     }
 }
