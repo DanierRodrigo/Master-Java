@@ -8,6 +8,9 @@ public class EjercicioLoginConOperadoresLogicos {
         String username = "daniel";
         String password = "12345";
 
+        String username2 = "July";
+        String password2 = "54321";
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el nombre de usuario: ");
@@ -18,7 +21,7 @@ public class EjercicioLoginConOperadoresLogicos {
 
         boolean esAutenticado = false;
 
-        if(username.equals(u) && password.equals(p)){
+        if( username.equals(u) && password.equals(p) || username2.equals(u) && password2.equals(p)){
             esAutenticado = true;
         }else{
             System.out.println("El nombre de usuario o contraseña son incorrectos");
