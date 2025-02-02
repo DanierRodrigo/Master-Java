@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EjercicioLoginConOperadoresLogicos {
     public static void main(String[] args) {
 
-        String[] usernames = new String[3];  //Arreglo de tres Strings, en este caso se añaden más a mano
+        /*String[] usernames = new String[3];  //Arreglo de tres Strings, en este caso se añaden más a mano
         String[] passwords = new String[3];
         usernames[0] = "daniel";             //Pero la primera posición es el 0
         passwords[0] = "12345";
@@ -14,7 +14,11 @@ public class EjercicioLoginConOperadoresLogicos {
         passwords[1] = "54321";
 
         usernames[2] = "alucard";
-        passwords[2] = "tepes";
+        passwords[2] = "tepes";*/
+
+
+        String[] usernames = {"daniel", "july", "alucard"};
+        String[] passwords = {"12345", "54321", "tepes"};
 
         Scanner scanner = new Scanner(System.in);
 
