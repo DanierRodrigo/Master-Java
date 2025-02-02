@@ -5,11 +5,16 @@ import java.util.Scanner;
 public class EjercicioLoginConOperadoresLogicos {
     public static void main(String[] args) {
 
-        String username = "daniel";
-        String password = "12345";
+        String[] usernames = new String[2];  //Arreglo de tres Strings, en este caso se añaden más a mano
+        String[] passwords = new String[2];
+        usernames[0] = "daniel";             //Pero la primera posición es el 0
+        passwords[0] = "12345";
 
-        String username2 = "July";
-        String password2 = "54321";
+        usernames[1] = "july";
+        passwords[1] = "54321";
+
+        usernames[2] = "alucard";
+        passwords[2] = "tepes";
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,11 +26,13 @@ public class EjercicioLoginConOperadoresLogicos {
 
         boolean esAutenticado = false;
 
-        if( username.equals(u) && password.equals(p) || username2.equals(u) && password2.equals(p)){
-            esAutenticado = true;
-        }else{
-            System.out.println("El nombre de usuario o contraseña son incorrectos");
-        }
+        for(int i = 0; i < usernames.length; i++){
+            if( usernames[i].equals(u) && passwords[i].equals(p) ){
+                esAutenticado = true;
+                break;                       //Para acabar la iteración si ya tenemos el true
+            }                                //Quitamos el else porque saldría 3 veces en caso de error
+        }                                    //Mejor poner el mensaje de error fuera de este if
+
 
         if(esAutenticado){   //No es necesario poner = true porque ya se entiende de esta forma
             System.out.println("Bienvenido usuario ".concat(u).concat("!"));
