@@ -7,24 +7,15 @@ public class EjercicioPromedioNotasTernario {
         // Crear un objeto Scanner para leer la entrada del usuario
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar las notas de las asignaturas
-        System.out.print("Introduce la nota de Matemáticas: ");
-        double matematicas = scanner.nextDouble();
-
-        System.out.print("Introduce la nota de Lengua: ");
-        double lengua = scanner.nextDouble();
-
-        System.out.print("Introduce la nota de Física: ");
-        double fisica = scanner.nextDouble();
-
-        System.out.print("Introduce la nota de Inglés: ");
-        double ingles = scanner.nextDouble();
-
-        System.out.print("Introduce la nota de Educación Física: ");
-        double educacionFisica = scanner.nextDouble();
+        // Variables para almacenar las notas
+        double matematicas = obtenerNotaValida(scanner, "Matemáticas");
+        double lengua = obtenerNotaValida(scanner, "Lengua");
+        double fisica = obtenerNotaValida(scanner, "Física");
+        double historia = obtenerNotaValida(scanner, "Historia");
+        double tecnología = obtenerNotaValida(scanner, "Tecnología");
 
         // Calcular el promedio
-        double promedio = (matematicas + lengua + fisica + ingles + educacionFisica) / 5;
+        double promedio = (matematicas + lengua + fisica + historia + tecnología) / 5;
 
         // Usar el operador ternario para determinar si el alumno está aprobado o suspendido
         String resultado = (promedio >= 5) ? "Aprobado" : "Suspenso";
@@ -35,6 +26,28 @@ public class EjercicioPromedioNotasTernario {
 
         // Cerrar el scanner
         scanner.close();
+    }
+
+    // Función para obtener una nota válida entre 0.0 y 10.0
+    public static double obtenerNotaValida(Scanner scanner, String materia) {
+        double nota;
+        while (true) {
+            System.out.print("Introduce la nota de " + materia + " (entre 0.0 y 10.0): ");
+            // Verificar si la entrada es un número
+            if (scanner.hasNextDouble()) {
+                nota = scanner.nextDouble();
+                // Comprobar si la nota está en el rango válido
+                if (nota >= 0.0 && nota <= 10.0) {
+                    break; // Nota válida, salimos del bucle
+                } else {
+                    System.out.println("Error: La nota debe estar entre 0.0 y 10.0.");
+                }
+            } else {
+                System.out.println("Error: Debes ingresar un número válido.");
+                scanner.next(); // Limpiar el buffer para evitar bucles infinitos
+            }
+        }
+        return nota;
     }
 }
 
