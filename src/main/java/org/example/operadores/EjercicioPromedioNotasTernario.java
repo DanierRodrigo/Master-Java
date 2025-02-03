@@ -12,10 +12,10 @@ public class EjercicioPromedioNotasTernario {
         double lengua = obtenerNotaValida(scanner, "Lengua");
         double fisica = obtenerNotaValida(scanner, "Física");
         double historia = obtenerNotaValida(scanner, "Historia");
-        double tecnología = obtenerNotaValida(scanner, "Tecnología");
+        double tecnologia = obtenerNotaValida(scanner, "Tecnología");
 
         // Calcular el promedio
-        double promedio = (matematicas + lengua + fisica + historia + tecnología) / 5;
+        double promedio = (matematicas + lengua + fisica + historia + tecnologia) / 5;
 
         // Usar el operador ternario para determinar si el alumno está aprobado o suspendido
         String resultado = (promedio >= 5) ? "Aprobado" : "Suspenso";
