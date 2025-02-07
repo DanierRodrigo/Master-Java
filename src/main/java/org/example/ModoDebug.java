@@ -21,7 +21,17 @@ public class ModoDebug {
         System.out.println("El resultado es: " + resultado);
     }
 
-    public static int dividir(int a, int b) {
+    /*public static int dividir(int a, int b) {
         return a / b; // Aquí está el error, no se puede dividir por cero
+    }*/
+
+    public static int dividir(int a, int b) {
+        if (b == 0) {
+            System.out.println("Error: No se puede dividir por cero.");
+            return 0; // O cualquier valor de error que decidas
+        }
+        return a / b;
     }
+
+
 }
