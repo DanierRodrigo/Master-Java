@@ -6,13 +6,33 @@ public class EjercicioOrdenarNumeros {
     public static void main(String[] args) {
         // Crear un objeto Scanner para leer los datos del usuario
         Scanner scanner = new Scanner(System.in);
+        int num1 = 0, num2 = 0;
+        boolean validInput = false;
 
-        // Pedir los dos números
-        System.out.print("Introduce el primer número: ");
-        int num1 = scanner.nextInt();
+        // Validación para el primer número
+        while (!validInput) {
+            try {
+                System.out.print("Introduce el primer número: ");
+                num1 = Integer.parseInt(scanner.nextLine());  // Intentamos convertir la entrada a un número
+                validInput = true;  // Si no ocurre excepción, la entrada es válida
+            } catch (NumberFormatException e) {
+                System.out.println("Error: Por favor, ingresa un número válido.");
+            }
+        }
 
-        System.out.print("Introduce el segundo número: ");
-        int num2 = scanner.nextInt();
+        // Reiniciar la validación para el segundo número
+        validInput = false;
+
+        // Validación para el segundo número
+        while (!validInput) {
+            try {
+                System.out.print("Introduce el segundo número: ");
+                num2 = Integer.parseInt(scanner.nextLine());  // Intentamos convertir la entrada a un número
+                validInput = true;  // Si no ocurre excepción, la entrada es válida
+            } catch (NumberFormatException e) {
+                System.out.println("Error: Por favor, ingresa un número válido.");
+            }
+        }
 
         // Usar operador ternario para determinar cuál es mayor
         int mayor = (num1 > num2) ? num1 : num2;
