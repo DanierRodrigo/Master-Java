@@ -5,9 +5,9 @@ import javax.swing.*;
 public class EjercicioNombreMasLargo {
     public static void main(String[] args) {
         // Pedir el nombre completo de tres personas usando JOptionPane
-        String persona1 = JOptionPane.showInputDialog("Introduce el nombre completo de la primera persona:");
-        String persona2 = JOptionPane.showInputDialog("Introduce el nombre completo de la segunda persona:");
-        String persona3 = JOptionPane.showInputDialog("Introduce el nombre completo de la tercera persona:");
+        String persona1 = obtenerNombreValido("Introduce el nombre completo de la primera persona:");
+        String persona2 = obtenerNombreValido("Introduce el nombre completo de la segunda persona:");
+        String persona3 = obtenerNombreValido("Introduce el nombre completo de la tercera persona:");
 
         // Separar los nombres y apellidos de cada persona
         String nombre1 = persona1.split(" ")[0];
@@ -21,5 +21,20 @@ public class EjercicioNombreMasLargo {
 
         // Mostrar el resultado
         JOptionPane.showMessageDialog(null, nombreMasLargo + " tiene el nombre más largo.");
+    }
+
+    // Método para obtener un nombre válido (solo letras y espacios)
+    public static String obtenerNombreValido(String mensaje) {
+        String nombre;
+        while (true) {
+            nombre = JOptionPane.showInputDialog(mensaje);
+            // Validar que el nombre no esté vacío y que solo contenga letras y espacios
+            if (nombre != null && nombre.matches("[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ ]+")) {
+                break;
+            } else {
+                JOptionPane.showMessageDialog(null, "Error: Por favor, ingresa un nombre válido (solo letras y espacios).");
+            }
+        }
+        return nombre;
     }
 }
