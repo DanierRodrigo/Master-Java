@@ -1,11 +1,20 @@
 package org.example.flujosDeControl;
 
+import java.util.Scanner;
+
 public class EjercicioNumDiasMes {
     public static void main(String[] args) {
 
-        int mes = 9;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el número del mes (1-12): ");
+        int mes = scanner.nextInt();
+
+        System.out.print("Ingrese el año (YYYY): ");
+        int anio = scanner.nextInt();
+
         int numeroDias = 0;
-        int anio = 2020;
+
 
         if(mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12){   //Corresponde a los meses de 31 días
             numeroDias = 31;
