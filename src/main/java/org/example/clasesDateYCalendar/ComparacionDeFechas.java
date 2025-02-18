@@ -18,6 +18,17 @@ public class ComparacionDeFechas {
             System.out.println("Fecha1 es después que Fecha2? " + fecha1.after(fecha2));  // false
             System.out.println("Fecha1 es igual a Fecha2? " + fecha1.equals(fecha2));     // false
 
+            // Comparar usando compareTo()
+            int resultado = fecha1.compareTo(fecha2);
+
+            if (resultado < 0) {
+                System.out.println("Fecha1 es anterior a Fecha2");
+            } else if (resultado > 0) {
+                System.out.println("Fecha1 es posterior a Fecha2");
+            } else {
+                System.out.println("Fecha1 es igual a Fecha2");
+            }
+
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
