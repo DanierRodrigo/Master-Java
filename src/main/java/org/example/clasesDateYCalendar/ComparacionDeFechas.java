@@ -15,6 +15,7 @@ public class ComparacionDeFechas {
 
             // Comparar las fechas usando before(), after() y equals()
             System.out.println("Fecha1 es antes que Fecha2? " + fecha1.before(fecha2));  // true
+            System.out.println("Fecha1 es después que Fecha2? " + fecha1.after(fecha2));  // false
 
 
         } catch (Exception e) {
