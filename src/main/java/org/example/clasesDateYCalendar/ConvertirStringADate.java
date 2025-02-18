@@ -12,13 +12,14 @@ public class ConvertirStringADate {
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
 
         try {
-            // Convertir el String a un objeto Date
             Date fecha = formato.parse(fechaString);
 
-            // Mostrar el objeto Date resultante
-            System.out.println("Fecha convertida: " + fecha);
+            // Ahora, formateamos la fecha a un formato más legible
+            SimpleDateFormat formatoSalida = new SimpleDateFormat("EEEE, dd MMMM yyyy");
+            String fechaFormateada = formatoSalida.format(fecha);
+
+            System.out.println("Fecha formateada: " + fechaFormateada);
         } catch (Exception e) {
-            // Capturar cualquier excepción de formato
             System.out.println("Error al convertir la fecha: " + e.getMessage());
         }
     }
