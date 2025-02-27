@@ -11,9 +11,17 @@ public class EjemploAutomovil {
         auto1.establecerDetalles("Volkswagen", "Passat", "Verde", 2.0); // Usamos el metodo con argumentos
 
         // Mostrar los detalles de ambos automóviles
-        auto.mostrarDetalles();
-        System.out.println(); // Salto de línea entre los dos coches
-        auto1.mostrarDetalles();
+        System.out.println(auto.obtenerDetalles());
+        System.out.println(); // Salto de línea
+        System.out.println(auto1.obtenerDetalles());
+
+        // Modificar detalles con los métodos setters
+        auto.setColor("Azul");
+        auto.setCilindrada(2.5);
+
+        // Mostrar detalles actualizados de auto1
+        System.out.println("\nDetalles actualizados de auto:");
+        System.out.println(auto.obtenerDetalles());
     }
 
 
