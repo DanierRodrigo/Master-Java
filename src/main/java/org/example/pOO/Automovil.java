@@ -7,10 +7,19 @@ public class Automovil {
     String color;
     double cilindrada;
 
-    public void detalle(){
-        System.out.println("coche.fabricante = " + this.fabricante);
-        System.out.println("coche.modelo = " + this.modelo);
-        System.out.println("coche.color = " + this.color);
-        System.out.println("coche.cilindrada = " + this.cilindrada);
+    // Metodo para establecer los detalles del automóvil
+    public void establecerDetalles(String fabricante, String modelo, String color, double cilindrada) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.color = color;
+        this.cilindrada = cilindrada;
+    }
+
+    // Metodo para mostrar los detalles del automóvil
+    public void mostrarDetalles() {
+        System.out.println("Fabricante: " + this.fabricante);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Color: " + this.color);
+        System.out.println("Cilindrada: " + this.cilindrada);
     }
 }
