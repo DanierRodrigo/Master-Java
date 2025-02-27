@@ -2,10 +2,30 @@ package org.example.pOO;
 
 public class Automovil {
 
-    String fabricante;
-    String modelo;
-    String color;
-    double cilindrada;
+    // Atributos privados (encapsulamiento)
+    private String fabricante;
+    private String modelo;
+    private String color;
+    private double cilindrada;
+
+    // Constructor vacío
+    public Automovil() {
+        // Inicializa los atributos con valores por defecto
+        this.fabricante = "Desconocido";
+        this.modelo = "Desconocido";
+        this.color = "Desconocido";
+        this.cilindrada = 0.0;
+    }
+
+    // Constructor con parámetros
+    public Automovil(String fabricante, String modelo, String color, double cilindrada) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.color = color;
+        this.cilindrada = cilindrada;
+    }
+
+    // Métodos con sobrecarga (mismo nombre pero diferente firma)
 
     // Metodo para establecer los detalles del automóvil
     public void establecerDetalles(String fabricante, String modelo, String color, double cilindrada) {
@@ -15,11 +35,50 @@ public class Automovil {
         this.cilindrada = cilindrada;
     }
 
-    // Metodo para mostrar los detalles del automóvil
-    public void mostrarDetalles() {
-        System.out.println("Fabricante: " + this.fabricante);
-        System.out.println("Modelo: " + this.modelo);
-        System.out.println("Color: " + this.color);
-        System.out.println("Cilindrada: " + this.cilindrada);
+    // Sobrecarga de metodo para establecer detalles solo con algunos parámetros
+    public void establecerDetalles(String fabricante, String modelo) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+    }
+
+    // Metodo para obtener los detalles del automóvil (metodo con encapsulamiento)
+    public String obtenerDetalles() {
+        return "Fabricante: " + this.fabricante + "\n" +
+                "Modelo: " + this.modelo + "\n" +
+                "Color: " + this.color + "\n" +
+                "Cilindrada: " + this.cilindrada;
+    }
+
+    // Métodos getters y setters para acceder a los atributos (encapsulamiento)
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getCilindrada() {
+        return cilindrada;
+    }
+
+    public void setCilindrada(double cilindrada) {
+        this.cilindrada = cilindrada;
     }
 }
