@@ -13,7 +13,7 @@ public class OperacionesMatrices {
                 {7, 8}
         };
 
-        // Paso 1: Suma de matrices
+        // Suma de matrices
         int filas = matrizA.length;
         int columnas = matrizA[0].length;
 
@@ -35,7 +35,7 @@ public class OperacionesMatrices {
             System.out.println("Las matrices no tienen las mismas dimensiones para la suma.");
         }
 
-        // Paso 2: Resta de matrices
+        // Resta de matrices
         if (matrizA.length == matrizB.length && matrizA[0].length == matrizB[0].length) {
             int[][] resta = new int[filas][columnas];
 
@@ -51,6 +51,26 @@ public class OperacionesMatrices {
             imprimirMatriz(resta);
         } else {
             System.out.println("Las matrices no tienen las mismas dimensiones para la resta.");
+        }
+
+        // Multiplicación: Solo si las matrices tienen dimensiones compatibles
+        if (matrizA[0].length == matrizB.length) {
+            int[][] multiplicacion = new int[matrizA.length][matrizB[0].length];
+
+            // Realizar la multiplicación
+            for (int i = 0; i < matrizA.length; i++) {
+                for (int j = 0; j < matrizB[0].length; j++) {
+                    for (int k = 0; k < matrizA[0].length; k++) {
+                        multiplicacion[i][j] += matrizA[i][k] * matrizB[k][j];
+                    }
+                }
+            }
+
+            // Mostrar el resultado de la multiplicación
+            System.out.println("Multiplicación de las matrices:");
+            imprimirMatriz(multiplicacion);
+        } else {
+            System.out.println("Las matrices no son compatibles para la multiplicación.");
         }
     }
 
