@@ -2,7 +2,7 @@ package org.example.pOO;
 
 public class Automovil {
 
-    // Atributos privados (encapsulamiento)
+    // Atributos privados (encapsulamiento) para que no sean accesibles directamente desde fuera de la clase
     private String fabricante;
     private String modelo;
     private String color;
@@ -49,7 +49,7 @@ public class Automovil {
                 "Cilindrada: " + this.cilindrada;
     }
 
-    // Métodos getters y setters para acceder a los atributos (encapsulamiento)
+    // Métodos getters y setters para acceder a los atributos privados (encapsulamiento)
     public String getFabricante() {
         return fabricante;
     }
