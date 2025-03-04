@@ -35,6 +35,22 @@ public class EjemploAutomovil {
         // Mostrar detalles actualizados de auto1
         System.out.println("\nDetalles actualizados de auto:");
         System.out.println(auto.obtenerDetalles());
+
+        //Vamos a demostrar que cada objeto es único aunque tengan mismos atributos
+        Automovil auto4 = new Automovil();
+        auto1.establecerDetalles("Porche", "Carrera GT", "Amarillo", 2.0);
+
+        Automovil auto5 = new Automovil();
+        auto1.establecerDetalles("Porche", "Carrera GT", "Amarillo", 2.0);
+
+        System.out.println(); // Salto de línea
+        System.out.println(auto4.obtenerDetalles());
+        System.out.println(); // Salto de línea
+        System.out.println(auto5.obtenerDetalles());
+        System.out.println(); // Salto de línea
+        System.out.println("¿Son iguales auto4 y auto5?: " + (auto4 == auto5));
+        System.out.println(); // Salto de línea
+        System.out.println("¿Son iguales auto4 y auto5?: " + (auto4.equals(auto5)));
     }
 
 
