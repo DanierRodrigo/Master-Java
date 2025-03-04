@@ -13,12 +13,20 @@ public class EjemploAutomovil {
         Automovil auto2 = new Automovil();
         auto2.establecerDetalles("Toyota", "Corolla"); // Solo se establecen fabricante y modelo);
 
+        Automovil auto3 = new Automovil();  // Constructor vacío y usamos métodos set
+        auto3.setFabricante("Ford");
+        auto3.setModelo("Focus");
+        auto3.setColor("Rojo");
+        auto3.setCilindrada(1.8);
+
         // Mostrar los detalles de ambos automóviles
         System.out.println(auto.obtenerDetalles());
         System.out.println(); // Salto de línea
         System.out.println(auto1.obtenerDetalles());
         System.out.println(); // Salto de línea
         System.out.println(auto2.obtenerDetalles());
+        System.out.println(); // Salto de línea
+        System.out.println(auto3.obtenerDetalles());
 
         // Modificar detalles con los métodos setters
         auto.setColor("Azul");
