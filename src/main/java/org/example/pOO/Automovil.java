@@ -2,65 +2,47 @@ package org.example.pOO;
 
 public class Automovil {
 
-    // Atributos privados (encapsulamiento) para que no sean accesibles directamente desde fuera de la clase
     private String fabricante;
     private String modelo;
-    private String color;
+    private Color color;  // Usamos el enum Color
     private double cilindrada;
 
-    // Constructor vacío
     public Automovil() {
-        // Inicializa los atributos con valores por defecto
         this.fabricante = "Desconocido";
         this.modelo = "Desconocido";
-        this.color = "Desconocido";
+        this.color = Color.NEGRO; // Color por defecto
         this.cilindrada = 0.0;
     }
 
-    // Constructor con parámetros
-    public Automovil(String fabricante, String modelo, String color, double cilindrada) {
+    public Automovil(String fabricante, String modelo, Color color, double cilindrada) {
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.color = color;
         this.cilindrada = cilindrada;
     }
 
-    // Métodos con sobrecarga (mismo nombre pero diferente firma)
-
-    // Metodo para establecer los detalles del automóvil
-    public void establecerDetalles(String fabricante, String modelo, String color, double cilindrada) {
+    public void establecerDetalles(String fabricante, String modelo, Color color, double cilindrada) {
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.color = color;
         this.cilindrada = cilindrada;
     }
 
-    // Sobrecarga de metodo para establecer detalles solo con algunos parámetros
     public void establecerDetalles(String fabricante, String modelo) {
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
 
-    // Metodo para obtener los detalles del automóvil (metodo con encapsulamiento)
-    public String obtenerDetalles() {
-        return "Fabricante: " + this.fabricante + "\n" +
-                "Modelo: " + this.modelo + "\n" +
-                "Color: " + this.color + "\n" +
-                "Cilindrada: " + this.cilindrada;
-    }
-
-    // Implementación del metodo toString()
     @Override
     public String toString() {
         return "Automovil{" +
                 "fabricante='" + fabricante + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", color='" + color + '\'' +
+                ", color=" + color +  // Mostramos el enum directamente
                 ", cilindrada=" + cilindrada +
                 '}';
     }
 
-    // Métodos getters y setters para acceder a los atributos privados (encapsulamiento)
     public String getFabricante() {
         return fabricante;
     }
@@ -77,11 +59,11 @@ public class Automovil {
         this.modelo = modelo;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
