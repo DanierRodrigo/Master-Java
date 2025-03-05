@@ -49,6 +49,17 @@ public class Automovil {
                 "Cilindrada: " + this.cilindrada;
     }
 
+    // Implementación del metodo toString()
+    @Override
+    public String toString() {
+        return "Automovil{" +
+                "fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", color='" + color + '\'' +
+                ", cilindrada=" + cilindrada +
+                '}';
+    }
+
     // Métodos getters y setters para acceder a los atributos privados (encapsulamiento)
     public String getFabricante() {
         return fabricante;

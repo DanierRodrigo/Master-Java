@@ -19,14 +19,14 @@ public class EjemploAutomovil {
         auto3.setColor("Rojo");
         auto3.setCilindrada(1.8);
 
-        // Mostrar los detalles de ambos automóviles
-        System.out.println(auto.obtenerDetalles());
-        System.out.println(); // Salto de línea
-        System.out.println(auto1.obtenerDetalles());
-        System.out.println(); // Salto de línea
-        System.out.println(auto2.obtenerDetalles());
-        System.out.println(); // Salto de línea
-        System.out.println(auto3.obtenerDetalles());
+        // Mostrar detalles usando toString()
+        System.out.println(auto);  //Ya no hace falta poner auto.toString
+        System.out.println();
+        System.out.println(auto1);
+        System.out.println();
+        System.out.println(auto2);
+        System.out.println();
+        System.out.println(auto3);
 
         // Modificar detalles con los métodos setters
         auto.setColor("Azul");
