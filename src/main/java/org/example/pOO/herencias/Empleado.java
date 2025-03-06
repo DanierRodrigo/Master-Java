@@ -13,6 +13,10 @@ class Empleado extends Persona {
     public double getRemuneracion() { return remuneracion; }
     public int getEmpleadoId() { return empleadoId; }
 
+    public void aumentarRemuneracion(int porcentaje) {
+        this.remuneracion += this.remuneracion * porcentaje / 100.0;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", ID Empleado: " + empleadoId + ", Remuneración: " + remuneracion;
