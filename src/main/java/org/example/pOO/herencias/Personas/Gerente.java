@@ -1,4 +1,4 @@
-package org.example.pOO.herencias;
+package org.example.pOO.herencias.Personas;
 
 class Gerente extends Empleado {
     private double presupuesto;

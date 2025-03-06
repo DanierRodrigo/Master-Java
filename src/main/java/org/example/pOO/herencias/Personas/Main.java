@@ -1,4 +1,4 @@
-package org.example.pOO.herencias;
+package org.example.pOO.herencias.Personas;
 
 public class Main {
     public static void main(String[] args) {

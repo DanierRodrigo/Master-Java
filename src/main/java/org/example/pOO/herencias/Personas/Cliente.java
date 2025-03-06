@@ -1,4 +1,4 @@
-package org.example.pOO.herencias;
+package org.example.pOO.herencias.Personas;
 
 class Cliente extends Persona {
     private int clienteId;

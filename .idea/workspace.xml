@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="201a87ef-5e4b-4b6f-bfe4-33ed0d6f0745" name="Changes" comment="Cambio de nombre de Clases">
+    <list default="true" id="201a87ef-5e4b-4b6f-bfe4-33ed0d6f0745" name="Changes" comment="Clase Main para crear clases y mostrar datos">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +16,195 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanierRodrigo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DanierRodrigo/Master-Java.git&quot;,
+    &quot;accountId&quot;: &quot;994da255-7b53-407e-9da8-ec2187eda564&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;DanierRodrigo&quot;,
+    &quot;repository&quot;: &quot;Master-Java&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2rJGpjmBWXbmTU5fiSG825M6tKp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArregloEnteros.executor": "Run",
+    "Application.ArregloString.executor": "Run",
+    "Application.AutoboxingInteger.executor": "Debug",
+    "Application.BuscarElementoArreglo.executor": "Run",
+    "Application.ClaseJavaUtilRandom.executor": "Run",
+    "Application.CombinarArreglos.executor": "Run",
+    "Application.CombinarMultiplesArreglos.executor": "Run",
+    "Application.ComparacionDeFechas.executor": "Run",
+    "Application.ConvertirStringADate.executor": "Run",
+    "Application.DeterminarOrdenArreglo.executor": "Run",
+    "Application.EjemploAsignarPropiedadesDelSistema.executor": "Run",
+    "Application.EjemploAutomovil.executor": "Run",
+    "Application.EjemploClaseMath.executor": "Run",
+    "Application.EjemploClaseMathRandom.executor": "Run",
+    "Application.EjemploJavaUtilCalendar.executor": "Run",
+    "Application.EjemploJavaUtilDate.executor": "Run",
+    "Application.EjemploMetodoGetClass.executor": "Run",
+    "Application.EjemploOrdenes.executor": "Run",
+    "Application.EjemploPropiedadesDelSistema.executor": "Run",
+    "Application.EjemploVariablesEntorno.executor": "Run",
+    "Application.EjercicioAdivinaElNumero.executor": "Run",
+    "Application.EjercicioCalcularEdad.executor": "Run",
+    "Application.EjercicioEleccionAleatoria.executor": "Run",
+    "Application.EjercicioMenuOpcionesIterativo.executor": "Run",
+    "Application.EjercicioNumeroMayorArreglo.executor": "Run",
+    "Application.EjercicioNumerosParesEImpares.executor": "Run",
+    "Application.EjercicioRadioCirculo.executor": "Run",
+    "Application.EjercicioSistemaNotas.executor": "Run",
+    "Application.EliminarElementoArreglo.executor": "Run",
+    "Application.InsertarElementoArreglo.executor": "Run",
+    "Application.IntercambioSimetrico.executor": "Run",
+    "Application.IteracionArreglosInversa.executor": "Run",
+    "Application.LimitesYDiagonal.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MatrizBidireccional.executor": "Run",
+    "Application.MatrizBidireccionalString.executor": "Run",
+    "Application.MatrizIrregular.executor": "Run",
+    "Application.MatrizSimetrica.executor": "Run",
+    "Application.MatrizTranspuesta.executor": "Run",
+    "Application.OperacionesMatrices.executor": "Run",
+    "Application.OrdenamientoBurbuja.executor": "Run",
+    "Application.PasarPorReferencia.executor": "Run",
+    "Application.PasarPorReferencia2.executor": "Run",
+    "Application.PasarPorValor.executor": "Debug",
+    "Application.SumaDeFilasYColumnas.executor": "Run",
+    "Application.TareaHistograma.executor": "Run",
+    "Application.TareaImprimirSilla.executor": "Run",
+    "Application.TareaImprimirX.executor": "Run",
+    "Application.TareaMayorOcurrencia.executor": "Run",
+    "Application.TareaNumeroMasAlto.executor": "Debug",
+    "Application.TareaOrdenInversoAlternado.executor": "Run",
+    "Application.TareaPromediosyCeros.executor": "Run",
+    "Application.WrapperBoolean.executor": "Run",
+    "Application.WrapperInteger.executor": "Run",
+    "Application.WrapperOperadoresRelacionales.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#6 on develop",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="EjemploAutomovil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pOO.EjemploAutomovil" />
+      <module name="Master-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pOO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploOrdenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pOO.EjemploOrdenes" />
+      <module name="Master-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pOO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pOO.herencias.Main" />
+      <module name="Master-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pOO.herencias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TareaImprimirSilla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.matrices.TareaImprimirSilla" />
+      <module name="Master-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TareaImprimirX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.matrices.TareaImprimirX" />
+      <module name="Master-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EjemploOrdenes" />
+        <item itemvalue="Application.EjemploAutomovil" />
+        <item itemvalue="Application.TareaImprimirSilla" />
+        <item itemvalue="Application.TareaImprimirX" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +249,359 @@
       <option name="project" value="LOCAL" />
       <updated>1736696868622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00115" summary="Multiplicación en matrices">
+      <option name="closed" value="true" />
+      <created>1740658482786</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1740658482786</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Clase SumaDeFilasYColumnas">
+      <option name="closed" value="true" />
+      <created>1740659105617</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659105617</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Suma de filas y columnas de una matriz">
+      <option name="closed" value="true" />
+      <created>1740659150521</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659150521</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Clase LimitesYDiagonal">
+      <option name="closed" value="true" />
+      <created>1740659436816</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659436816</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Limites y diagonal de una matriz">
+      <option name="closed" value="true" />
+      <created>1740659520788</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659520788</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Clase TareaImprimirX">
+      <option name="closed" value="true" />
+      <created>1740661422703</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1740661422703</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Tarea Imprimir X">
+      <option name="closed" value="true" />
+      <created>1740662858748</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1740662858748</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Tarea Imprimir silla (H)">
+      <option name="closed" value="true" />
+      <created>1740663302035</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663302035</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Clase Automovil">
+      <option name="closed" value="true" />
+      <created>1740671467522</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1740671467522</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Clase Automovil">
+      <option name="closed" value="true" />
+      <created>1740672031259</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1740672031259</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Clase Automovil">
+      <option name="closed" value="true" />
+      <created>1740672234056</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1740672234056</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Clase EjemploAutomovil">
+      <option name="closed" value="true" />
+      <created>1740674919981</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1740674919981</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Método detalle()">
+      <option name="closed" value="true" />
+      <created>1740676097170</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1740676097170</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Usando detalle()">
+      <option name="closed" value="true" />
+      <created>1740676135093</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1740676135093</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Métodos con argumentos">
+      <option name="closed" value="true" />
+      <created>1740677015635</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677015635</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Uso de nuevos métodos">
+      <option name="closed" value="true" />
+      <created>1740677064662</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677064662</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Métodos con argumentos, sobrecarga y encapsulamiento">
+      <option name="closed" value="true" />
+      <created>1740677305083</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677305083</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Probando .establecerDetalles(), obtenerDetalles(), setColor() y setCilindrada()">
+      <option name="closed" value="true" />
+      <created>1740677487282</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677487282</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Usando .establecerDetalles() sobrecargado">
+      <option name="closed" value="true" />
+      <created>1741006401307</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1741006401307</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Principio de ocultación de los atributos">
+      <option name="closed" value="true" />
+      <created>1741089035481</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1741089035481</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Constructor vacio y métodos set para modificar sus atributos predeterminados">
+      <option name="closed" value="true" />
+      <created>1741091291747</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1741091291747</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Demostración de que cada objeto es distitno aunque tengan los mismos valores usando .equals y ==">
+      <option name="closed" value="true" />
+      <created>1741130770603</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1741130770603</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Método .toString">
+      <option name="closed" value="true" />
+      <created>1741197726046</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1741197726046</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Enum Color">
+      <option name="closed" value="true" />
+      <created>1741198061839</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198061839</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Aplicando el Enum Color a la clase">
+      <option name="closed" value="true" />
+      <created>1741198899023</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198899023</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Aplicando el Enum Color a los constructores">
+      <option name="closed" value="true" />
+      <created>1741199567251</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1741199567251</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Método switch-case para devolver una descripción del color">
+      <option name="closed" value="true" />
+      <created>1741247142419</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1741247142419</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Aplicando .descripcionColor()">
+      <option name="closed" value="true" />
+      <created>1741247294178</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1741247294178</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Clase Producto con constructor y getters">
+      <option name="closed" value="true" />
+      <created>1741248953114</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1741248953114</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Clase Cliente con constructor y getters">
+      <option name="closed" value="true" />
+      <created>1741248979854</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1741248979854</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Clase OrdenCompra con constructor y getters">
+      <option name="closed" value="true" />
+      <created>1741249069763</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249069763</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Setters para fecha y cliente">
+      <option name="closed" value="true" />
+      <created>1741249128942</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249128942</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Método para agregar productos">
+      <option name="closed" value="true" />
+      <created>1741249195324</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249195324</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Método para calcular el total">
+      <option name="closed" value="true" />
+      <created>1741249229048</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249229048</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Clase EjemploOrdenes creando clientes">
+      <option name="closed" value="true" />
+      <created>1741249296346</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249296346</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Clase EjemploOrdenes creando productos">
+      <option name="closed" value="true" />
+      <created>1741249356699</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249356699</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Clase EjemploOrdenes creando órdenes de compra">
+      <option name="closed" value="true" />
+      <created>1741249419769</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249419769</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Método imprimirOrden">
+      <option name="closed" value="true" />
+      <created>1741249954226</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1741249954226</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Clase Persona con atributos, constructor, getters y toString()">
+      <option name="closed" value="true" />
+      <created>1741267218968</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267218968</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Clase Empleado con atributos, constructor, getters y toString()">
+      <option name="closed" value="true" />
+      <created>1741267334090</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267334091</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Método aumentarRemuneracion()">
+      <option name="closed" value="true" />
+      <created>1741267375764</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267375764</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Clase Gerente con atributos, getter, setter y toString()">
+      <option name="closed" value="true" />
+      <created>1741267476851</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267476851</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Clase Cliente con atributos, getter y toString()">
+      <option name="closed" value="true" />
+      <created>1741267579116</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267579116</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Clase Main para crear clases y mostrar datos">
+      <option name="closed" value="true" />
+      <created>1741267864446</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267864446</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,10 +616,57 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Montando proyecto" />
-    <MESSAGE value="Hola mundo" />
-    <MESSAGE value="Primitivos tipo Char" />
-    <MESSAGE value="Cambio de nombre de Clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio de nombre de Clases" />
+    <MESSAGE value="Principio de ocultación de los atributos" />
+    <MESSAGE value="Constructor vacio y métodos set para modificar sus atributos predeterminados" />
+    <MESSAGE value="Demostración de que cada objeto es distitno aunque tengan los mismos valores usando .equals y ==" />
+    <MESSAGE value="Método .toString" />
+    <MESSAGE value="Enum Color" />
+    <MESSAGE value="Aplicando el Enum Color a la clase" />
+    <MESSAGE value="Aplicando el Enum Color a los constructores" />
+    <MESSAGE value="Método switch-case para devolver una descripción del color" />
+    <MESSAGE value="Aplicando .descripcionColor()" />
+    <MESSAGE value="Clase Producto con constructor y getters" />
+    <MESSAGE value="Clase Cliente con constructor y getters" />
+    <MESSAGE value="Clase OrdenCompra con constructor y getters" />
+    <MESSAGE value="Setters para fecha y cliente" />
+    <MESSAGE value="Método para agregar productos" />
+    <MESSAGE value="Método para calcular el total" />
+    <MESSAGE value="Clase EjemploOrdenes creando clientes" />
+    <MESSAGE value="Clase EjemploOrdenes creando productos" />
+    <MESSAGE value="Clase EjemploOrdenes creando órdenes de compra" />
+    <MESSAGE value="Método imprimirOrden" />
+    <MESSAGE value="Clase Persona con atributos, constructor, getters y toString()" />
+    <MESSAGE value="Clase Empleado con atributos, constructor, getters y toString()" />
+    <MESSAGE value="Método aumentarRemuneracion()" />
+    <MESSAGE value="Clase Gerente con atributos, getter, setter y toString()" />
+    <MESSAGE value="Clase Cliente con atributos, getter y toString()" />
+    <MESSAGE value="Clase Main para crear clases y mostrar datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase Main para crear clases y mostrar datos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/flujosDeControl/SentenciaIfElse.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/flujosDeControl/EjercicioNumDiasMes.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/wrappers/AutoboxingInteger.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arreglos/TareaNumeroMasAlto.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
