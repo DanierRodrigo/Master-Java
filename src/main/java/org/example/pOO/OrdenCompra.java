@@ -39,5 +39,15 @@ public class OrdenCompra {
         return productos;
     }
 
+    // Métodos setter solo para fecha y cliente
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+
 }
 
