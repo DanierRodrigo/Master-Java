@@ -57,6 +57,15 @@ public class OrdenCompra {
         }
     }
 
-
+    // Metodo para calcular el gran total
+    public int getGranTotal() {
+        int total = 0;
+        for (Producto producto : productos) {
+            if (producto != null) {
+                total += producto.getPrecio();
+            }
+        }
+        return total;
+    }
 }
 
