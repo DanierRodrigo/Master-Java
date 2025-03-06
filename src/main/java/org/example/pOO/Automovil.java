@@ -33,6 +33,33 @@ public class Automovil {
         this.modelo = modelo;
     }
 
+    // Metodo que usa switch-case para devolver una descripción del color
+    public String descripcionColor() {
+        switch (color) {
+            case ROJO:
+                return "El automóvil es de un color rojo vibrante y deportivo.";
+            case AZUL:
+                return "El automóvil es azul, un color elegante y tranquilo.";
+            case VERDE:
+                return "El automóvil tiene un color verde, símbolo de naturaleza y frescura.";
+            case GRIS:
+                return "El automóvil es gris, un color neutro y sofisticado.";
+            case NEGRO:
+                return "El automóvil es negro, reflejando lujo y exclusividad.";
+            case BLANCO:
+                return "El automóvil es blanco, mostrando pureza y modernidad.";
+            case AMARILLO:
+                return "El automóvil es amarillo, llamativo y enérgico.";
+            case NARANJA:
+                return "El automóvil es naranja, un color audaz y dinámico.";
+            case PLATEADO:
+                return "El automóvil es plateado, con un diseño moderno y futurista.";
+            default:
+                return "Color desconocido.";
+        }
+    }
+
+
     @Override
     public String toString() {
         return "Automovil{" +
