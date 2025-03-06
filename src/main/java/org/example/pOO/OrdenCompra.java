@@ -48,6 +48,15 @@ public class OrdenCompra {
         this.cliente = cliente;
     }
 
+    // Agregar productos, máximo 4
+    public void addProducto(Producto producto) {
+        if (indiceProductos < productos.length) {
+            productos[indiceProductos++] = producto;
+        } else {
+            System.out.println("No se pueden agregar más de 4 productos a la orden.");
+        }
+    }
+
 
 }
 
