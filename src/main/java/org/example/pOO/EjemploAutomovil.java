@@ -19,12 +19,16 @@ public class EjemploAutomovil {
         auto3.setCilindrada(1.8);
 
         System.out.println(auto);
+        System.out.println(auto.descripcionColor());
         System.out.println();
         System.out.println(auto1);
+        System.out.println(auto1.descripcionColor());
         System.out.println();
         System.out.println(auto2);
+        System.out.println(auto2.descripcionColor());
         System.out.println();
         System.out.println(auto3);
+        System.out.println(auto3.descripcionColor());
 
         auto.setColor(Color.AZUL);
         auto.setCilindrada(2.5);
@@ -39,8 +43,10 @@ public class EjemploAutomovil {
 
         System.out.println();
         System.out.println(auto4);
+        System.out.println(auto4.descripcionColor());
         System.out.println();
         System.out.println(auto5);
+        System.out.println(auto5.descripcionColor());
         System.out.println();
         System.out.println("¿Son iguales auto4 y auto5?: " + (auto4 == auto5));
         System.out.println("¿Son iguales auto4 y auto5 (equals)?: " + auto4.equals(auto5));
