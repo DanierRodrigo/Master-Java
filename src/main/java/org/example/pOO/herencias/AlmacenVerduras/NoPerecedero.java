@@ -1,10 +1,10 @@
 package org.example.pOO.herencias.AlmacenVerduras;
 
-class NoPerecederos extends Producto {
+class NoPerecedero extends Producto {
     private int contenido;
     private int calorias;
 
-    public NoPerecederos(String nombre, double precio, int contenido, int calorias) {
+    public NoPerecedero(String nombre, double precio, int contenido, int calorias) {
         super(nombre, precio);
         this.contenido = contenido;
         this.calorias = calorias;
