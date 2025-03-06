@@ -51,6 +51,27 @@ public class EjemploOrdenes {
         orden3.addProducto(p11);
         orden3.addProducto(p12);
 
+        // Imprimir detalles de cada orden
+        imprimirOrden(orden1);
+        imprimirOrden(orden2);
+        imprimirOrden(orden3);
     }
 
+    public static void imprimirOrden(OrdenCompra orden) {
+        System.out.println("=====================================");
+        System.out.println("Orden N°: " + orden.getIdentificador());
+        System.out.println("Descripción: " + orden.getDescripcion());
+        System.out.println("Fecha: " + orden.getFecha());
+        System.out.println("Cliente: " + orden.getCliente().getNombre() + " " + orden.getCliente().getApellido());
+        System.out.println("Productos:");
+
+        for (Producto producto : orden.getProductos()) {
+            if (producto != null) {
+                System.out.println(" - " + producto.getFabricante() + " " + producto.getNombre() + " (€" + producto.getPrecio() + ")");
+            }
+        }
+
+        System.out.println("Total a pagar: €" + orden.getGranTotal());
+        System.out.println();
+    }
 }
