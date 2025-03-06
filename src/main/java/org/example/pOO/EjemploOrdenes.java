@@ -25,6 +25,32 @@ public class EjemploOrdenes {
         Producto p10 = new Producto("Razer", "Mouse Gaming", 130);
         Producto p11 = new Producto("Corsair", "Auriculares", 180);
         Producto p12 = new Producto("MSI", "Monitor 27\"", 300);
+
+        // Crear órdenes de compra
+        OrdenCompra orden1 = new OrdenCompra("Electrónica");
+        orden1.setCliente(cliente1);
+        orden1.setFecha(new Date());
+        orden1.addProducto(p1);
+        orden1.addProducto(p2);
+        orden1.addProducto(p3);
+        orden1.addProducto(p4);
+
+        OrdenCompra orden2 = new OrdenCompra("Ropa y Accesorios");
+        orden2.setCliente(cliente2);
+        orden2.setFecha(new Date());
+        orden2.addProducto(p5);
+        orden2.addProducto(p6);
+        orden2.addProducto(p7);
+        orden2.addProducto(p8);
+
+        OrdenCompra orden3 = new OrdenCompra("Periféricos para PC");
+        orden3.setCliente(cliente3);
+        orden3.setFecha(new Date());
+        orden3.addProducto(p9);
+        orden3.addProducto(p10);
+        orden3.addProducto(p11);
+        orden3.addProducto(p12);
+
     }
 
 }
