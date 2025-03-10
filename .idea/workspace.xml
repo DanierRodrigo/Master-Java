@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="201a87ef-5e4b-4b6f-bfe4-33ed0d6f0745" name="Changes" comment="Práctica ParOImpar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="201a87ef-5e4b-4b6f-bfe4-33ed0d6f0745" name="Changes" comment="Práctica ParOImpar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,14 +250,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1736696868622</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Constructor vacio y métodos set para modificar sus atributos predeterminados">
-      <option name="closed" value="true" />
-      <created>1741091291747</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1741091291747</updated>
     </task>
     <task id="LOCAL-00136" summary="Demostración de que cada objeto es distitno aunque tengan los mismos valores usando .equals y ==">
       <option name="closed" value="true" />
@@ -605,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741616338570</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Práctica ParOImpar">
+      <option name="closed" value="true" />
+      <created>1741620325684</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1741620325684</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
